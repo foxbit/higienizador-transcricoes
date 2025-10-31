@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+install/
+
+# Meson
+/build*/
+meson-private/
+compile_commands.json
+
+# Flatpak
+.flatpak-builder/
+flatpak-repo/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Cache
+.cache/
+pytest_cache/
+
+# Local settings
+*.local
+*.env
+.env.*
